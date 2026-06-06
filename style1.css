@@ -1,0 +1,423 @@
+/* NAVBAR MEDIA QUERIES */
+@media (min-width:426px) and (max-width:769px){
+   
+    
+    /* nav-bar */
+    .navbar-right
+    {
+        display:none;
+        position:absolute;
+        top:50px;
+        right:0px;
+        width:80%;
+        z-index:3;
+    }
+    .navbar-right a{
+       color:white;
+       padding:10px;
+    }
+    .hamburger-icon
+    {
+       display:flex;
+       font-size:30px;
+       cursor:pointer;
+       margin-right:3%;
+       position:relative;
+    }
+   
+    .navbar{
+       display:flex;
+       justify-content: space-between;
+    }
+    .navbar-left
+    {
+        margin-left:3%;
+    }
+
+    .hamburger-icon:hover~.navbar-right{
+        display:flex;
+        flex-direction:column;
+        background-color: #222;
+        
+    }
+
+    /* background details */
+
+    .background-image {
+        height:560px;
+    }
+    .circle img
+    {
+        height:350px;
+        width:350px;
+        margin-left:3%;
+    }
+    .circle-hr
+    {
+        width:50px;
+    }
+    .date-circle
+    {
+        font-size:20px;
+    }
+    .name-circle
+    {
+        font-size:35px;
+    }
+
+    .caption-circle
+    {
+        font-size:17px;
+    }
+    
+    /* our story */
+    
+    .our-story
+    {
+        padding-top:100px;
+        max-width: 740px;
+    }
+    .our-story-content
+    {
+        flex-wrap: wrap;
+        margin-left:3%;
+    }
+    
+    .our-story-img img
+    {
+        width:550px;
+        height:760px;
+        
+    }
+    .our-story-background {
+        display:none;
+    }
+    
+    /* Main-location */
+
+    .location-dates
+    {
+        padding-top:100px;
+        flex-direction: column;
+        max-width:740px;
+        gap:30px;
+        margin-bottom:0px;
+    }
+    .location-hr
+    {
+        display:none;
+    }
+
+    /* our-memories */
+      .our-memories
+      {
+        width:700px;
+      }
+
+      /* contact-details */
+
+      .contact-information
+      {
+         margin:auto;
+         padding-top:100px;
+      }
+
+      .outer-top
+      {
+       left:-120px;
+      }
+      .outer-bottom
+      {
+        right:-100px;
+      }
+
+      /* footer */
+      .footer-top{
+
+        justify-content: space-between;
+        align-items: center;
+      }
+      .footer-left1
+      {
+         width:41%;
+         margin-left:4%;
+         margin-bottom:4%;
+        
+      }
+       .footer-left2
+      {
+         width:41%;
+          margin-bottom:3%;
+      }
+
+      .footer-right1
+      {
+        width:41%;
+         margin-left:4%;
+      }
+      .footer-right2
+      {
+        width:41%;
+      }
+}
+
+
+
+@media (min-width:320px) and (max-width:425px){
+   
+    
+    /* nav-bar */
+    .navbar-right
+    {
+        display:none;
+        position:absolute;
+        top:50px;
+        right:0px;
+        width:80%;
+        z-index:3;
+    }
+    .navbar-right a{
+       color:white;
+       padding:10px;
+    }
+    .hamburger-icon
+    {
+       display:flex;
+       font-size:30px;
+       cursor:pointer;
+       margin-right:3%;
+       position:relative;
+    }
+   
+    .navbar{
+       display:flex;
+       justify-content: space-between;
+    }
+    .navbar-left
+    {
+        margin-left:3%;
+    }
+
+    .hamburger-icon:hover~.navbar-right{
+        display:flex;
+        flex-direction:column;
+        background-color: #222;
+        
+    }
+
+    /* background details */
+
+    .background-image {
+        height:400px;
+    }
+    .circle img
+    {
+        height:225px;
+        width:225px;
+        margin-left:3%;
+    }
+    .circle-hr
+    {
+        display:none;
+    }
+    .date-circle
+    {
+        font-size:16px;
+    }
+    .name-circle
+    {
+        font-size:25px;
+    }
+
+    .caption-circle
+    {
+        font-size:13px;
+    }
+    
+    /* our story */
+    
+    .our-story
+    {
+        padding-top:50px;
+        max-width: 420px;
+    }
+    .our-story-content
+    {
+        flex-wrap: wrap;
+        margin-left:3%;
+    }
+    .our-story-img{
+        margin-left:5%;
+    }
+    .our-story-img img
+    {
+        width:90%;
+        height:500px;
+        display:flex;
+
+        
+    }
+    .our-flower-img
+    {
+        display:none;
+    }
+    .our-story-background {
+        display:none;
+    }
+    .our-story-right {
+       margin-left: 5%;
+
+    }
+
+
+
+    /* Main-location */
+
+    .location-dates
+    {
+        padding-top:50px;
+        flex-direction: column;
+        gap:30px;
+        margin-bottom:0px;
+    }
+    .location-hr
+    {
+        display:none;
+    }
+    
+    .location1-backflower,
+    .location2-backflower,
+    .location3-backflower {
+        top: 20px;
+       left: 125px;
+      }
+   
+
+
+    /* our-memories */
+      .our-memories-top
+      {
+        flex-direction:column;
+      }
+
+      .our-memories-bottom
+      {
+        flex-direction:column;
+      }
+
+      .our-memories h2
+      {
+        font-size:25px;
+      }
+
+
+
+      /* our partners */
+      .our-partners h2
+      {
+        text-align: center;
+        font-size:25px;
+      }
+
+      /* best gift */
+      .white-box
+      {
+        opacity:0.1;
+      }
+      .best-gift-img
+      {
+        height:400px;
+      }
+      .our-memories{
+        padding-bottom:100px;
+      }
+      .best-gift-content
+      {
+        top:100px;
+        margin-left:5%;
+      }
+      .best-gift-content h2
+      {
+        font-size:40px;
+        font-weight:700;
+      }
+      .best-gift-content p{
+
+        font-size:18px;
+      }
+
+
+      /* contact-details */
+
+      .contact-information
+      {
+         margin:auto;
+         padding-top:50px;
+         
+      }
+      .contact-form{
+         width:90%;
+
+      }
+
+      .outer-top
+      {
+         height:250px;
+         width:260px;
+         left:-100px;
+      }
+      .outer-bottom
+      {
+        height:250px;
+         width:260px;
+         right:-70px;
+      }
+      .contact-form h2 {
+        font-size:25px;
+      }
+    
+      .contact-button
+      {
+        margin:auto;
+        margin-top:20px;
+
+      }
+    .contact-button button{
+        padding:15px;
+        width:100px;
+      }
+
+      .contact-details .guestlist{
+        
+        width:110%;
+
+      }
+
+
+
+      /* footer */
+      .footer-top{
+
+        flex-direction:column;
+        justify-content: space-evenly;
+        margin-left:3%;
+        
+      }
+      .footer-left1,.footer-left2,
+      .footer-right1,.footer-right2
+      {
+        margin-bottom: 10px;
+      }
+      
+      .footer-bottom
+      {
+        padding:0px;
+        text-align:center;
+        padding-left:10px;
+        padding-right:10px;
+      }
+
+
+
+
+}

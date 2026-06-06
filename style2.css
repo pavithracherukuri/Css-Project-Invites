@@ -1,0 +1,223 @@
+
+
+/* circle */
+
+.circle img
+{
+    animation:rotatecircle 30s infinite linear;
+}
+
+@keyframes rotatecircle {
+     
+    from{
+
+        transform:rotate(0deg);
+    }
+    to {
+
+         transform:rotate(360deg);
+    } 
+}
+
+/* memories */
+
+
+.memories-black
+{ 
+  width:100%;
+  height:100%;
+  background-color: black;
+  position:absolute;
+  opacity:0;
+  z-index:2;
+  transition:0.4s all ease-out 0s;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.memory-image{
+ /* overflow:hidden; */
+  transition:0.4s all ease-out 0s;
+  
+}
+.our-memories-top-img img,
+.our-memories-bottom-img img
+{
+    transition:0.4s all ease-out 0s;
+}
+.memory-image:hover img{
+    transform:scale(0.9);
+}
+.memory-image:hover .memories-black{
+
+    opacity:0.6;
+      transform:scale(0.9);
+    
+}
+
+.plus-circle
+{
+    width:40px;
+    height:40px;
+    border-radius:50%;
+    background:white;
+    position:absolute;
+    z-index:3;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+}
+
+.plus-circle i
+{
+    font-size:20px;
+    color:black;
+    
+}
+.our-memories-background
+{   
+    pointer-events:none;
+}
+
+
+
+
+/* contact */
+
+.contact-img img
+{
+    transition: all 0.7s linear;
+}
+
+.contact-form:hover .contact-img img
+{
+    transform:rotate(-90deg);
+}
+
+.outer-top
+{
+     transition: all 0.6s linear;
+}
+
+.outer-bottom
+{
+     transition: all 0.6s linear;
+}
+
+.contact-form:hover .outer-top
+{
+    transform:translateY(-25px);
+}
+
+.contact-form:hover .outer-bottom
+{
+    transform:translateY(-25px);
+}
+
+/* brand image */
+
+.our-brand-img img
+{
+    animation:slidebrands 10s infinite linear;
+}
+
+@keyframes slidebrands{
+
+
+    0%{
+       
+        transform:translateX(100px);
+
+    }
+
+    100%{
+        transform:translateX(-100px);
+    } 
+
+    /* 100%
+    {
+        transform:translateX(0px);
+    } */
+
+}
+
+/* background-image-change */
+
+.background-image-part
+{
+    animation:herochange 10s linear 2s infinite;
+}
+ 
+@keyframes herochange {
+
+    0%{
+
+        background-image:url("https://preview.colorlib.com/theme/invits/assets/img/hero/homeHero_1.jpg");
+    }
+
+    50%
+    {
+        background-image:url("https://preview.colorlib.com/theme/invits/assets/img/hero/homeHero_2.jpg");
+    }
+    
+}
+
+
+
+.white-border
+{
+    animation:rotateborder 10s infinite;
+}
+
+@keyframes rotateborder
+{
+    0%
+    {
+        transform:rotate(0deg);
+    }
+    100%
+    {
+        transform:rotate(360deg);
+    }
+}
+
+.our-story-left,.our-shape-right,.our-memories-left,.our-memories-right
+{
+    animation:scalezoom 5s infinite;;
+}
+
+.our-story-right img{
+    animation:move 5s infinite;
+}
+
+@keyframes move{
+
+    0%
+    {
+        transform:translateX(100px);
+    }
+    100%
+    {
+        transform:translateX(0px);
+    }
+}
+
+.location1-img img,.location2-img,.location3-img
+{
+    animation:scalezoom 5s infinite;
+}
+
+
+
+@keyframes scalezoom
+{
+    0%
+    {
+        transform:scale(0);
+    }
+
+    100%
+    {
+        transform:scale(1);
+    }
+}

@@ -1,0 +1,15 @@
+<div class="single-slider slider-height hero-overly d-flex align-items-center slick-slide slick-current slick-active" data-background="assets/img/hero/homeHero_1.jpg" tabindex="0" style="width: 1120px; position: relative; left: 0px; top: 0px; z-index: 999; opacity: 1;" data-slick-index="0" aria-hidden="false">
+                    <div class="container">
+                        <div class="row d-flex align-items-center">
+                            <div class="col-lg-7 col-md-9 ">
+                                <div class="hero__caption text-center d-flex align-items-center caption-bg">
+                                   <div class="circle-caption">
+                                        <span data-animation="fadeInUp" data-delay=".3s" class="" style="animation-delay: 0.3s;">Feb 14 2020</span>
+                                        <h1 data-animation="fadeInUp" data-delay=".5s" class="" style="animation-delay: 0.5s;">Julia &amp; Jakson</h1>
+                                        <p data-animation="fadeInUp" data-delay=".9s" class="" style="animation-delay: 0.9s;">We are getting married</p>
+                                   </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
