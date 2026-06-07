@@ -1,7 +1,5 @@
 /* NAVBAR MEDIA QUERIES */
-@media (min-width:426px) and (max-width:769px){
-   
-    
+@media (min-width:426px) and (max-width:769px){ 
     /* nav-bar */
     .navbar-right
     {
@@ -33,6 +31,11 @@
     {
         margin-left:3%;
     }
+     .pages
+     {
+      justify-content:flex-start;
+     }
+     
 
     .hamburger-icon:hover~.navbar-right{
         display:flex;
@@ -40,6 +43,10 @@
         background-color: #222;
         
     }
+
+   
+
+
 
     /* background details */
 
@@ -205,6 +212,11 @@
         
     }
 
+     .pages
+     {
+      justify-content:flex-start;
+     }
+
     /* background details */
 
     .background-image {
@@ -247,15 +259,17 @@
         margin-left:3%;
     }
     .our-story-img{
-        margin-left:5%;
+        margin-left:20%;
+        width:100%;
     }
     .our-story-img img
     {
         width:90%;
-        height:500px;
+        height:250px;
         display:flex;
-
-        
+        justify-content: center; 
+        align-items:center;
+        margin:auto;
     }
     .our-flower-img
     {
@@ -268,6 +282,14 @@
        margin-left: 5%;
 
     }
+    .our-story-right-top h3 {
+      font-size:20px;
+    }
+
+    .our-story-right-bottom p {
+      font-size:13px;
+    }
+   
 
 
 
@@ -291,6 +313,44 @@
         top: 20px;
        left: 125px;
       }
+      .location1-heading h1,
+       .location2-heading h1, 
+       .location3-heading h1 {
+          font-size:25px;
+       }
+
+    .location1-heading p,
+       .location2-heading p, 
+       .location3-heading p {
+          font-size:18px;
+       }
+
+      .location1-img img,
+      .location2-img img,
+      .location3-img img {
+          height:177px;
+          width:177px;
+          margin-bottom:0px;
+      }
+      .location1-backflower img,
+      .location2-backflower img,
+      .location3-backflower img {
+         height: 144px;
+      }
+
+      .white-border
+      {
+         height:177px;
+         width:177px;
+         top:-6px;
+         left:25px;
+         bottom:0px;
+         border: 5px solid rgba(255, 255, 255, 0.8);
+         border-radius: 50%;
+        border-top:5px solid #800098;
+      }
+
+
    
 
 
@@ -298,16 +358,27 @@
       .our-memories-top
       {
         flex-direction:column;
+        align-items: center;
       }
 
       .our-memories-bottom
       {
         flex-direction:column;
+        align-items:center;
       }
 
       .our-memories h2
       {
         font-size:25px;
+      }
+      .our-memories-background
+      {
+        display:none;
+      }
+      .memory-image
+      {
+        width:80%;
+        margin-bottom:10px;
       }
 
 
@@ -352,30 +423,64 @@
       .contact-information
       {
          margin:auto;
-         padding-top:50px;
+         padding-top:30px;
          
       }
       .contact-form{
          width:90%;
+         height:650px;
+         
 
       }
+      .contact-inner-flower .top2,
+      .contact-inner-flower .top1,
+      .contact-inner-flower .top3,
+      .contact-inner-flower .top4
+      {
+        height:45px;
+        width:70px;
+      }
+      .contact-img img {
+        margin-top: 30px;
+        margin-bottom: 15px;
+        width:60px;
+        height:39px;
+        }
 
       .outer-top
       {
-         height:250px;
-         width:260px;
-         left:-100px;
+         height:210px;
+         width:200px;
+         left:-70px;
       }
       .outer-bottom
       {
-        height:250px;
-         width:260px;
-         right:-70px;
+        height:210px;
+         width:200px;
+         right:-50px;
+         bottom:50px;
       }
       .contact-form h2 {
-        font-size:25px;
+        font-size:20px;
       }
-    
+      .contact-details input{
+        padding:5px 8px 5px 8px;
+        font-size:15px;
+
+      }
+      .contact-details select
+      {
+        height:50px;
+        padding:7px 10px 7px 10px;
+        font-size:15px;
+      }
+      .contact-details .textarea
+      {
+        width:65%;
+        padding:10px 20px;
+        font-size:15px;
+      }
+
       .contact-button
       {
         margin:auto;
@@ -383,16 +488,12 @@
 
       }
     .contact-button button{
-        padding:15px;
-        width:100px;
+        padding:10px;
+        width:75px;
+        font-size:15px;
       }
 
-      .contact-details .guestlist{
-        
-        width:110%;
-
-      }
-
+     
 
 
       /* footer */
@@ -420,4 +521,315 @@
 
 
 
+}
+
+
+/* PAGE-BLOG MEDIA QUERIES */
+@media (min-width:426px) and (max-width:769px){ 
+
+  .main-blog
+  {
+    flex-direction:column;
+  }
+
+  .blog-rightside
+  {
+    width:90%;
+    margin:auto;
+  }
+
+  .search-bar input
+  {
+    width:700px;
+  }
+
+  .search-button button
+  {
+    width:565px;
+  }
+  .email-contact input{
+    width:550px;
+  }
+
+  .subscribe button
+  {
+    width:575px;
+  }
+
+  .blog-leftside
+  {
+    width:85%;
+  }
+
+
+}
+
+@media (min-width:320px) and (max-width:425px)
+{
+  
+  .main-blog
+  {
+    flex-direction:column;
+  }
+  .blog1-img img {
+
+    width:250px;
+    height:250px;
+  }
+  .blog1-date
+  {
+    padding:5px 10px;
+  }
+
+  .blog-rightside
+  {
+    width:90%;
+    margin:auto;
+  }
+
+  .search-bar input
+  {
+    width:250px;
+  }
+
+  .search-button button
+  {
+    width:225px;
+  }
+  .email-contact input{
+    width:200px;
+  }
+
+  .subscribe button
+  {
+    width:230px;
+  }
+
+  .blog-leftside
+  {
+    width:85%;
+  }
+}
+
+
+/* BLOG-DETAILS MEDIA QUERIES */
+
+@media (min-width:426px) and (max-width:769px){ 
+
+  .blog-leftside{
+    margin:auto;
+  }
+
+  .blog1-img img {
+
+    width:550px;
+  } 
+
+}
+
+@media (min-width:320px) and (max-width:425px)
+{
+  .main-blog{
+    width:90%;
+  }
+  .blog-leftside{
+    width:100%;
+  }
+  .blog-details
+  {
+    width:100%;
+  }
+  .main-blog p {
+      font-size:13px;
+  }
+  .main-blog h2,.main-blog h3,.main-blog h4{
+      font-size:15px;
+  }
+  .leftside-start {
+    flex-direction:column;
+  }
+
+  .leftside-end
+  {
+    flex-direction:column;
+  }
+
+  .author
+  {
+    padding:15px 20px;
+  }
+  .contact1-index
+  {
+    margin:10px;
+    width:85%;
+  }
+  .nameemail
+  {
+    width:84%;
+  }
+}
+
+
+/* OUR-ELEMENT QUERIES */
+@media (min-width:426px) and (max-width:769px){ 
+
+  .sample-button
+  {
+    width:100%;
+  }
+  .left-content p, .right-content p {
+  
+    font-size:14px;
+    line-height:20px;
+  }
+
+  .d1 p,.d2 p,.d3 p{
+      font-size:13px;
+  }
+
+  text-sample p {
+   font-size:14PX;
+  }
+
+}
+
+@media (min-width:426px) and (max-width:769px){ 
+
+  .sample-button
+  {
+    width:100%;
+  }
+  .left-content p, .right-content p {
+  
+    font-size:10px;
+    line-height:10px;
+  }
+
+  .d1 p,.d2 p,.d3 p{
+      font-size:10px;
+  }
+
+}
+@media (min-width:426px) and (max-width:769px){ 
+
+  .sample-button
+  {
+    width:100%;
+  }
+  .left-content p, .right-content p {
+  
+    font-size:10px;
+    line-height:10px;
+  }
+
+  .d1 p,.d2 p,.d3 p{
+      font-size:10px;
+  }
+
+}
+
+@media (min-width:426px) and (max-width:769px){ 
+
+  .sample-button
+  {
+    width:100%;
+  }
+  .left-content p, .right-content p {
+  
+    font-size:10px;
+    line-height:10px;
+  }
+
+  .d1 p,.d2 p,.d3 p{
+      font-size:10px;
+  }
+
+}
+@media (min-width:426px) and (max-width:769px){ 
+
+  .sample-button
+  {
+    width:100%;
+  }
+  .left-content p, .right-content p {
+  
+    font-size:10px;
+    line-height:10px;
+  }
+
+  .d1 p,.d2 p,.d3 p{
+      font-size:10px;
+  }
+
+}
+
+@media (min-width:426px) and (max-width:769px){ 
+
+  .sample-button
+  {
+    width:100%;
+  }
+  .left-content p, .right-content p {
+  
+    font-size:10px;
+    line-height:10px;
+  }
+
+  .d1 p,.d2 p,.d3 p{
+      font-size:10px;
+  }
+
+}
+
+
+@media (min-width:320px) and (max-width:425px) {
+
+
+  .text-sample
+  {
+    padding-right:3px;
+  }
+
+  .left-content
+  {
+    flex-direction:column;
+  }
+
+  .right-content{
+    flex-direction:column;
+
+  }
+
+  .right-aligned h3
+  {
+    justify-content: flex-start;
+  }
+
+  .definition-class
+  {
+    flex-direction:column;
+  }
+
+  .block-quotes p {
+    padding: 13px 38px 11px 17px;
+  }
+
+  .row1-collab, .row2-collab, .row3-collab {
+
+    flex-direction:column;
+    margin-bottom:20px;
+  }
+
+    .ic1 , .ic2 , .ic3 ,.ic4,.ic5,.ic6,.ic7,.ic8{
+  
+    width: 90%;
+    height: 150px;
+    margin-bottom:50px;
+     }
+    .list-types
+    {
+      flex-direction:column;
+      margin-left:20px;
+    }
+  
 }
