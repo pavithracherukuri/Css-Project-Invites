@@ -116,7 +116,7 @@
 
 /* brand image */
 
-.our-brand-img img
+.our-brand-img  img
 {
     animation:slidebrands 10s infinite linear;
 }
@@ -126,24 +126,22 @@
 
     0%{
        
-        transform:translateX(100px);
+        transform:translateX(100%);
 
     }
 
-    100%{
-        transform:translateX(-100px);
-    } 
+   
 
-    /* 100%
+    100%
     {
-        transform:translateX(0px);
-    } */
+        transform:translateX(-100%);
+    }
 
 }
 
 /* background-image-change */
 
-.background-image-part
+/* .background-image-part
 {
     animation:herochange 10s linear 2s infinite;
 }
@@ -160,7 +158,7 @@
         background-image:url("https://preview.colorlib.com/theme/invits/assets/img/hero/homeHero_2.jpg");
     }
     
-}
+} */
 
 
 
@@ -221,3 +219,94 @@
         transform:scale(1);
     }
 }
+
+
+
+.blog1-date{
+    
+    animation:bloganimate 5s linear infinite;
+}
+
+@keyframes bloganimate {
+
+    0%
+    {
+        border-radius:80%;
+        transform:scale(0.5);
+        transform:translateX(0px);
+    }
+
+    100%
+    {
+        transform:scale(1.5);
+        transform:translateX(500px);
+    } 
+}
+
+.hero-content h2{
+    animation:scaleheading 5s linear infinite;
+}
+
+@keyframes scaleheading {
+
+    0%
+    {
+        transform:scale(0.5);
+    }
+    100%{
+         transform:scale(1.5);
+    }
+    
+}
+
+.content-circle{
+    animation:scalecircle 5s linear infinite;
+}
+
+@keyframes scalecircle {
+
+    0%
+    {
+        transform:scale(0.5);
+    }
+    100%{
+         transform:scale(1.1);
+    }
+    
+}
+
+.white-box
+{
+    animation:whitebox 5s linear infinite;
+}
+
+@keyframes whitebox {
+
+    0%
+    {
+        transform:translateX(100%);
+    }
+
+    100%{
+         transform:translateX(0px);
+    }
+    
+}
+
+.black-box-hero
+{
+    animation:blackbox 5s linear infinite;
+}
+
+@keyframes  blackbox {
+
+    0%
+    {
+        opacity:0;
+    }
+    100%{
+        opacity:0.5;
+    }
+    
+}
+
