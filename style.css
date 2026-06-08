@@ -114,7 +114,7 @@ a,button{
   background-color: black;
   position: absolute;
   z-index: 1;
-  opacity: 0.3;
+  opacity: 0.4;
 }
 .background-image-part {
   width: 100%;
@@ -664,10 +664,36 @@ textarea,input,select{
     font-size:20px;
 }
 
+.button-black
+{
+ 
+  width:0px;
+  padding:28.5px 0px;
+  background: black;
+  opacity:0;
+  border-radius:5px;
+  margin-top:-57px;
+  position:absolute;
+  z-index:2;
+  cursor: pointer;
+  transition:2s ease;
+  pointer-events:none;
+  
+}
 .contact-button{
   margin-top:25px;
   margin-right:200px;
+  position:relative;
+  z-index:1; 
 }
+.contact-button:hover ~ .button-black{
+  
+  
+  opacity:0.4;
+  width:150px;
+  
+}
+
 
 
 .contact-button button
@@ -680,7 +706,8 @@ textarea,input,select{
     padding: 20px;
     width:150px;
     border-radius:5px;
-    color:white;    
+    color:white; 
+     
 } 
 
 
@@ -1066,4 +1093,16 @@ textarea,input,select{
   /* bottom:50px;
   z-index:5;
   right:50px; */
+}
+
+
+/* focus */
+button:hover,
+button:focus,
+input:hover,
+input:focus,
+textarea:hover,
+textarea:focus
+{
+    outline: none;
 }

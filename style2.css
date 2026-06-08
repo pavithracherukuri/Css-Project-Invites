@@ -86,15 +86,28 @@
 
 .contact-img img
 {
-    transition: all 0.7s linear;
+    animation:rotateflower  5s linear infinite;
 }
 
-.contact-form:hover .contact-img img
-{
+@keyframes rotateflower {
+    
+
+    0%
+    {
+        
+    transform:rotate(0deg);
+
+    }
+
+    100%{
+
     transform:rotate(-90deg);
+
+    }
 }
 
-.outer-top
+
+/* .outer-top
 {
      transition: all 0.6s linear;
 }
@@ -112,6 +125,27 @@
 .contact-form:hover .outer-bottom
 {
     transform:translateY(-25px);
+} */
+
+
+
+.outer-top,.outer-bottom{
+
+    animation: translateflower  5s infinite linear;
+}
+
+@keyframes translateflower {
+
+    0%
+    {
+        transform:translateY(0px);
+        
+    }
+    100%{
+        
+       transform:translateY(-25px);
+    }
+    
 }
 
 /* brand image */
@@ -293,9 +327,9 @@
     
 }
 
-.black-box-hero
+/* .black-box-hero
 {
-    animation:blackbox 5s linear infinite;
+    animation:blackbox 10s linear infinite;
 }
 
 @keyframes  blackbox {
@@ -305,8 +339,61 @@
         opacity:0;
     }
     100%{
-        opacity:0.5;
+        opacity:0.6;
+    }
+    
+} */
+
+.blog1-img img
+{
+    transition: 5s all linear;
+}
+
+.blog1-img img:hover{
+   
+     transform:scale(1.1);
+}
+
+.post-img{
+    overflow:hidden;
+}
+.post-img img
+{
+    transition: 5s all linear;
+   
+    
+}
+
+.post-img img:hover{
+
+    transform:scale(1.2);
+    
+
+}
+
+
+.contact-inner-flower .top1,
+.contact-inner-flower .top2
+{
+    animation:movecontact 2s ease infinite;
+}
+
+@keyframes movecontact {
+
+    0%
+    {
+        tranform:rotate(0deg);
+    }
+    100%{
+        transform:rotate(360deg);
     }
     
 }
+
+
+
+
+
+
+
 
