@@ -311,24 +311,7 @@
     
 }
 
-/* .white-box
-{
-    animation:whitebox 5s linear infinite;
-} */
 
-/* @keyframes whitebox {
-
-    0%
-    {
-       width:0px
-    }
-
-    100%{
-        width:100%;
-         transform:translateX(100%);
-    }
-    
-} */
 
 .best-gift-img:hover ~.white-box
 {

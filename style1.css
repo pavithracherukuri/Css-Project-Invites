@@ -833,3 +833,20 @@
     }
   
 }
+
+/* our contact-media */
+
+@media (min-width:320px) and (max-width:425px) {
+
+
+  .contact-index{
+    flex-direction: column;
+    flex:wrap;
+  }
+
+  .right-side-contact
+  {
+    width:85%;
+  }
+
+}
