@@ -1036,15 +1036,17 @@ textarea,input,select{
   margin-top:35px;
   display:flex;
   flex-direction: column;
-  width:25%;
+  width:20%;
   margin-bottom:40px;
+  /* border:2px solid red; */
   
 }
 
 .right-side-info
 {
   display:flex;
-  justify-content:space-around;
+  margin-right:10px;
+  
   margin-bottom:30px;
 }
 
@@ -1060,7 +1062,8 @@ textarea,input,select{
   color: #8f9195;
     font-size: 27px;
     margin:0px;
-    padding:0px;
+    padding-right:10px;
+
 }
 
 .right-side-heading p{

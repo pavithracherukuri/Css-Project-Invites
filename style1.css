@@ -850,3 +850,17 @@
   }
 
 }
+@media (min-width:426px) and (max-width:769px) {
+
+
+  .contact-index{
+    flex-direction: column;
+    flex:wrap;
+  }
+
+  .right-side-contact
+  {
+    width:45%;
+  }
+
+}
