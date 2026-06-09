@@ -138,6 +138,14 @@
         right:-100px;
       }
 
+
+      /* brand */
+      .our-brand-img
+      {
+        align-items: center;
+        flex-direction: column;
+        flex:wrap;
+      }
       /* footer */
       .footer-top{
 
@@ -384,6 +392,12 @@
 
 
       /* our partners */
+      .our-brand-img
+      {
+        flex-direction: column;
+        flex:wrap;
+        align-items: center;
+      }
       .our-partners h2
       {
         text-align: center;
