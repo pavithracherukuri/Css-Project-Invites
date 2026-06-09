@@ -107,27 +107,6 @@
 }
 
 
-/* .outer-top
-{
-     transition: all 0.6s linear;
-}
-
-.outer-bottom
-{
-     transition: all 0.6s linear;
-}
-
-.contact-form:hover .outer-top
-{
-    transform:translateY(-25px);
-}
-
-.contact-form:hover .outer-bottom
-{
-    transform:translateY(-25px);
-} */
-
-
 
 .outer-top,.outer-bottom{
 
@@ -149,9 +128,6 @@
 }
 
 /* brand image */
-
-
-
 .our-brand-img  img
 {
     animation:slidebrands 10s infinite linear;
@@ -175,26 +151,7 @@
 
 }
 
-/* background-image-change */
 
-/* .background-image-part
-{
-    animation:herochange 10s linear 2s infinite;
-}
- 
-@keyframes herochange {
-
-    0%{
-
-        background-image:url("https://preview.colorlib.com/theme/invits/assets/img/hero/homeHero_1.jpg");
-    }
-
-    50%
-    {
-        background-image:url("https://preview.colorlib.com/theme/invits/assets/img/hero/homeHero_2.jpg");
-    }
-    
-} */
 
 
 
@@ -290,7 +247,7 @@
         transform:scale(0.5);
     }
     100%{
-         transform:scale(1.5);
+         transform:scale(1.1);
     }
     
 }
