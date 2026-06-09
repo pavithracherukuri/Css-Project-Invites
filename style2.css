@@ -311,41 +311,39 @@
     
 }
 
-.white-box
+/* .white-box
 {
     animation:whitebox 5s linear infinite;
-}
+} */
 
-@keyframes whitebox {
-
-    0%
-    {
-        transform:translateX(100%);
-    }
-
-    100%{
-         transform:translateX(0px);
-    }
-    
-}
-
-/* .black-box-hero
-{
-    animation:blackbox 10s linear infinite;
-}
-
-@keyframes  blackbox {
+/* @keyframes whitebox {
 
     0%
     {
-        opacity:0;
+       width:0px
     }
+
     100%{
-        opacity:0.6;
+        width:100%;
+         transform:translateX(100%);
     }
     
 } */
 
+.best-gift-img:hover ~.white-box
+{
+    width:100%;
+    
+
+}
+
+.contact-button:hover ~ .button-black{
+  
+  
+  opacity:0.4;
+  width:150px;
+  
+}
 .blog1-img img
 {
     transition: 5s all linear;
